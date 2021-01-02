@@ -33,6 +33,6 @@ class HomeController extends Controller
         $subject = 'Test Email';
         $name = 'Kiran Anand';
 
-        return view('emails.test')->with([ 'test_message' => 'This is a test!' ]);
+        return view('emails.test-view')->with([ 'test_message' => 'This is a test!' ]);
     }
 }

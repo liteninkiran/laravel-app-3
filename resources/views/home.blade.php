@@ -4,7 +4,7 @@
     <div class="flex justify-center">
         <div class="w-8/12 bg-white p-6 rounded-lg">
 
-            <h2 class="mb-4">Test Email</h2>
+            <div class="bg-blue-100 text-center text-3xl p-3 mb-3 rounded border md:border-gray-400 border-black">HOME</div>
 
             <form action="{{ route('send-email') }}" method="post" class="">
                 @csrf
