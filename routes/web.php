@@ -18,6 +18,8 @@ use App\Http\Controllers\Auth\LoginController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/home/send-email', [HomeController::class, 'sendEmail'])->name('send-email');
+Route::get('/home/send-email', [HomeController::class, 'index']);
 
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
