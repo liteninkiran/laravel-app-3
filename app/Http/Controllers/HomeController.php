@@ -26,4 +26,13 @@ class HomeController extends Controller
         $result = 'Email sent';
         return view('home', ['result' => $result]);
     }
+
+    public function viewEmail()
+    {
+        $address = 'liteninkiran@yahoo.co.uk';
+        $subject = 'Test Email';
+        $name = 'Kiran Anand';
+
+        return view('emails.test')->with([ 'test_message' => 'This is a test!' ]);
+    }
 }
