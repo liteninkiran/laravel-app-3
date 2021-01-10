@@ -253,6 +253,20 @@
         text-decoration: none;
     }
 
+    #main-footer img
+    {
+        height: auto;
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #main-footer br
+    {
+        display: none;
+    }
+
     /* Media Queries */
     @media(min-width: 700px)
     {
@@ -275,10 +289,22 @@
         }
 
         .box,
-        #main-footer div,
         #section-b-title
         {
             grid-column: span 2;
+        }
+
+        #counter
+        {
+            grid-column: span 2;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #main-footer img
+        {
+            margin-top: 0;
+            margin-bottom: 0;
         }
 
         #section-b ul

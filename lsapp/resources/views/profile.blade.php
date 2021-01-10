@@ -305,8 +305,21 @@
     <!-- Footer -->
     <footer id="main-footer" class="grid">
 
-        <div>Copyright Kiran Anand 2021</div>
-        <div>Proceed to <a href="{{ route('home') }}">Main Website</a></div>
+        <div>
+            Copyright Kiran Anand 2021
+        </div>
+
+        <div id="counter">
+
+            <a href='https://dissertation-writingservice.com/'>https://dissertation-writingservice.com</a>
+            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c246468f2201fbb8cc50d19bbc6e759c081da722'></script>
+            <script type="text/javascript" src="https://freevisitorcounters.com/en/home/counter/782004/t/9"></script>
+            
+        </div>
+
+        <div>
+            Proceed to <a href="{{ route('home') }}">Main Website</a>
+        </div>
 
     </footer>
 
