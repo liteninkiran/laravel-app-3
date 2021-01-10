@@ -14,13 +14,14 @@
         <nav class="p-6 bg-white flex justify-between mb-6">
 
             <ul class="flex items-center">
-                <li><a href="{{ url('/') }}" class="p-3">Home</a></li>
+                <li><a href="{{ url('/') }}" class="p-3">Kiran Anand CV</a></li>
+                <li><a href="{{ url('/home') }}" class="p-3">Home</a></li>
             </ul>
 
             <ul class="flex items-center">
 
                 @auth
-                    <li><a href="" class="p-3">{{ auth()->user()->name }}</a></li>
+                    <li><a href="{{ url('/') }}" class="p-3">{{ auth()->user()->name }}</a></li>
                     <li>
                         <form action="{{ route('logout') }}" method="post" class="p-3 inline">
                             @csrf

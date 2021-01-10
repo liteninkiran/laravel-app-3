@@ -1,0 +1,308 @@
+    /* Core Styles */
+
+    body
+    {
+        margin: 0pt;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #333;
+        color: #fff;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    img
+    {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3
+    {
+        margin: 0;
+        padding: 1em 0;
+    }
+
+    h1
+    {
+        font-size: 40pt;
+    }
+
+    h2
+    {
+        font-size: 30pt;
+    }
+
+    h3
+    {
+        font-size: 20pt;
+    }
+
+    p
+    {
+        margin: 0;
+        padding: 1em 0;
+    }
+
+    a:visited, a:link
+    {
+        color: white;
+    }
+
+    a:hover
+    {
+        color: orange;
+    }
+
+    .box-d1 a:hover
+    {
+        color: black;
+    }
+
+    .btn
+    {
+        display: inline-block;
+        background: #333;
+        color: white;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666;
+        margin: 0.5em 1em;
+        width: 130px;
+        font-size: 11pt;
+    }
+
+    .btn:hover
+    {
+        background: #eaeaea;
+        color: #333;
+    }
+
+    /* Header Showcase */
+    #showcase
+    {
+        min-height: 450px;
+        color: #fff;
+        text-align: center;
+    }
+
+    #showcase .bg-image
+    {
+        position: absolute;
+        background: #333 url('https://images.pexels.com/photos/247791/pexels-photo-247791.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #showcase h1
+    {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #showcase .content-wrap,
+    #section-a .content-wrap
+    {
+        padding: 0 1.5em;
+    }
+
+    #download
+    {
+        display: inline-block;
+        width: 100px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    /* Section A */
+    #section-a
+    {
+        background: #eaeaea;
+        color: #333;
+        padding-bottom: 2em;
+    }
+
+    #section-a p
+    {
+        text-align: left;
+    }
+
+
+    /* Section B */
+    #section-b
+    {
+        padding: 0;
+    }
+
+    #section-b ul
+    {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 1em;
+    }
+
+    #section-b li
+    {
+        margin-bottom: 1em;
+        background: #fff;
+        color: #333;
+    }
+
+    .card-content
+    {
+        padding: 1.5em;
+    }
+
+    .card-content p
+    {
+        text-align: left;
+        padding: 0;
+    }
+
+
+    /* Section C */
+    #section-c
+    {
+        background: #fff;
+        color: #333;
+        text-align: left;
+    }
+
+    #section-c h2
+    {
+        text-align: center;
+    }
+
+    #section-c small
+    {
+        font-style: italic;
+        padding: 10px 20px;
+    }
+
+    #section-c h3,
+    #section-c h4,
+    #section-c p
+    {
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    #section-c a:visited,
+    #section-c a:link
+    {
+        color: green;
+        text-decoration: none;
+    }
+
+    #section-c a:hover
+    {
+        color: blue;
+    }
+
+    #section-c .content-wrap
+    {
+        padding-bottom: 1cm;
+    }
+
+    .list li
+    {
+        text-align: left;
+    }
+
+    /* Section D */
+    #section-d .box
+    {
+        color: #fff;
+        padding: 2em;
+    }
+
+    #section-d .box:first-child
+    {
+        background: #2690d4;
+    }
+
+    #section-d a
+    {
+        display: block;
+        text-decoration: none;
+    }
+
+    #section-d p
+    {
+        padding-top: 0;
+    }
+
+    /* Footer */
+    #main-footer
+    {
+        padding: 2em;
+        background: #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    #main-footer a
+    {
+        color: #2690d4;
+        text-decoration: none;
+    }
+
+    /* Media Queries */
+    @media(min-width: 700px)
+    {
+        .grid
+        {
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+        }
+
+        .grid-2
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .content-wrap,
+        #section-b ul
+        {
+            grid-column: 2/4;
+        }
+
+        .box,
+        #main-footer div,
+        #section-b-title
+        {
+            grid-column: span 2;
+        }
+
+        #section-b ul
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #section-b li
+        {
+            width: 31%;
+        }
+
+        img
+        {
+            height: 150px;
+        }
+    }
+
+    @media(min-width: 1050px)
+    {
+        .grid-2
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }​
