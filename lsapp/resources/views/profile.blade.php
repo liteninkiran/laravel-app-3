@@ -55,6 +55,7 @@
                             <p>• PHP</p>
                             <p>• JavaScript, jQuery</p>
                             <p>• HTML and CSS</p>
+                            <p>• WordPress</p>
                         </div>
                     </div>
                 </li>
@@ -76,6 +77,7 @@
                             <h3 class="card-title">SQL Development</h3>
                             <p>• SQL Server Management Studio</p>
                             <p>• MySQL</p>
+                            <p>• Oracle</p>
                             <p>• MongoDB</p>
                             <p>• DB2</p>
                         </div>
