@@ -292,7 +292,7 @@
             <div class="box box-d2">
                 <h2 class="content-title">External Links</h2>
                 <a href="https://www.kiran-anand.com" target="_blank">www.kiran-anand.com</a>
-                <a href="https://www.github.com/liteninkiran" target="_blank">www.github.com/liteninkiran</a>
+                <a href="https://www.github.com/liteninkiran/laravel-app-3" target="_blank">www.github.com/liteninkiran</a>
                 <a href="https://www.linkedin.com/in/kirananand/" target="_blank">www.linkedin.com/in/kirananand</a>
             </div>
 
