@@ -267,6 +267,74 @@
         display: none;
     }
 
+    .collapsible
+    {
+        transition: background 0.5s ease-in;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20pt;
+        margin-top: 10px;
+    }
+
+    .coll-parent:nth-of-type(1)
+    {
+        background-color: rgb(22, 40, 76);
+    }
+
+    .coll-parent:nth-of-type(2)
+    {
+        background-color: rgb(66, 12, 63);
+    }
+
+    .coll-parent:nth-of-type(3)
+    {
+        background-color: rgb(18, 66, 12);
+    }
+
+    .coll-child:nth-of-type(1)
+    {
+        background-color: rgb(22, 40, 76);
+    }
+
+    .coll-child:nth-of-type(2)
+    {
+        background-color: rgb(22, 40, 76);
+    }
+
+    .coll-child:nth-of-type(even)
+    {
+        background-color: #555;
+    }
+
+    .coll-child:nth-of-type(odd)
+    {
+        background-color: #777;
+    }
+
+    .collapsible:hover
+    {
+        background-color: black;
+    }
+
+    .collapsible-1:hover
+    {
+        background-color: purple;
+    }
+
+
+    .collapse-content
+    {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
     /* Media Queries */
     @media(min-width: 700px)
     {
