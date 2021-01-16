@@ -13,7 +13,7 @@ class AddWebsiteAgencyTable extends Migration
      */
     public function up()
     {
-        Schema::table('agency', function (Blueprint $table)
+        Schema::table('agencies', function (Blueprint $table)
         {
             $table->string('website')->nullable()->after('phone');;
         });
@@ -26,7 +26,7 @@ class AddWebsiteAgencyTable extends Migration
      */
     public function down()
     {
-        Schema::table('agency', function (Blueprint $table)
+        Schema::table('agencies', function (Blueprint $table)
         {
             $table->dropColumn('website');
         });

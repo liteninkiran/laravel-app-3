@@ -13,7 +13,7 @@ class CreateAgencyTable extends Migration
      */
     public function up()
     {
-        Schema::create('agency', function (Blueprint $table)
+        Schema::create('agencies', function (Blueprint $table)
         {
             $table->id();
             $table->string('agency_name');
@@ -34,6 +34,6 @@ class CreateAgencyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('agency');
+        Schema::dropIfExists('agencies');
     }
 }

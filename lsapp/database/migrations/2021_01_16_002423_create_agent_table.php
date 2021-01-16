@@ -13,17 +13,13 @@ class CreateAgentTable extends Migration
      */
     public function up()
     {
-        Schema::create('agent', function (Blueprint $table)
+        Schema::create('agents', function (Blueprint $table)
         {
             $table->id();
             $table->string('agent_name');
             $table->string('phone')->nullable();
+            $table->foreignId('agencies_id')->constrained('agencies');
             $table->timestamps();
-        });
-
-        Schema::table('agent', function (Blueprint $table)
-        {
-            $table->foreignId('agency_id')->constrained('agency');
         });
     }
 
@@ -34,6 +30,6 @@ class CreateAgentTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('agent');
+        Schema::dropIfExists('agents');
     }
 }
