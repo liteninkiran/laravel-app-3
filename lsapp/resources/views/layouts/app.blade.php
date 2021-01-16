@@ -2,13 +2,22 @@
 <html lang="en">
 
     <head>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Kiran Anand">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
         <link rel="icon" type="image/png" href="/favicon.png">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>        
+        <script src="http://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
+        <link rel="stylesheet" href="http://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+
         <title>Kiran Anand</title>
+
     </head>
 
     <body class="bg-gray-200">
@@ -18,6 +27,7 @@
             <ul class="flex items-center">
                 <li><a href="{{ url('/') }}" class="p-3">Kiran Anand CV</a></li>
                 <li><a href="{{ url('/home') }}" class="p-3">Home</a></li>
+                <li><a href="{{ url('/agency') }}" class="p-3">Agencies</a></li>
             </ul>
 
             <ul class="flex items-center">
