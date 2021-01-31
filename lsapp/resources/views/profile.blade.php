@@ -394,7 +394,7 @@
                         <li>Please describe the process for making a code change to a system. Please make reference to:</li>
                         <ul>
                             <li>How requirements are both gathered and documented</li>
-                            <li>Git worflow</li>
+                            <li>Git workflow</li>
                             <li>Testing procedures (including Unit Testing)</li>
                             <li>Factors affecting the priority of the change</li>
                         </ul>
