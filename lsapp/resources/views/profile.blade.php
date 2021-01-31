@@ -386,6 +386,23 @@
 
                 </div>
 
+                <div class="list">
+                    <h2 class="content-title" style="padding: 40px 0 0 0;">Interview Questions</h2>
+                    <ul>
+                        <li>What are the 3 most challenging aspects of the role?</li>
+                        <li>Are tangible changes made as a result of lessons learnt from previous projects? If so, please give an example.</li>
+                        <li>Please describe the process for making a code change to a system. Please make reference to:</li>
+                        <ul>
+                            <li>How requirements are both gathered and documented</li>
+                            <li>Git worflow</li>
+                            <li>Testing procedures (including Unit Testing)</li>
+                            <li>Factors affecting the priority of the change</li>
+                        </ul>
+                        <li>What does a typical working day look like?</li>
+                        <li>Based on the last 10 meeting invites you have either sent or received, how many had a meeting agenda clearly stated on them?</li>
+                    </ul>
+                </div>
+
             </div>
 
         </section>
