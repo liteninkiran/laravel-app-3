@@ -399,7 +399,6 @@
                             <li>Factors affecting the priority of the change</li>
                         </ul>
                         <li>What does a typical working day look like?</li>
-                        <li>Based on the last 10 meeting invites you have either sent or received, how many had a meeting agenda clearly stated on them?</li>
                     </ul>
                 </div>
 
