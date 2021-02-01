@@ -390,7 +390,7 @@
                     <h2 class="content-title" style="padding: 40px 0 0 0;">Interview Questions</h2>
                     <ul>
                         <li>What are the 3 most challenging aspects of the role?</li>
-                        <li>Are tangible changes made as a result of lessons learnt from previous projects? If so, please give an example.</li>
+                        <li>Please give an example of a tangible change that was made as a result of a lesson learnt from a previous project.</li>
                         <li>Please describe the process for making a code change to a system. Please make reference to:</li>
                         <ul>
                             <li>How requirements are both gathered and documented</li>
