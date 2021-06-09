@@ -32,8 +32,12 @@
             <div class="content-wrap">
                 <h2 class="content-title">Professional Profile</h2>
                 <div class="content-text">
-                    <p>Dedicated web developer with 18 months experience in website design. Strong creative and analytical skills. Team player with an eye for detail. PHP (CodeIgniter & Laravel), Apache, MySQL.</p>
-                    <p>I am currently looking for a role where I can gain experience with <strong>Unit Testing</strong> and <strong>TDD</strong>.</p>
+                    <p>
+                        Dedicated web developer with 2 years’ experience with front-end and back-end web development. 
+                        Strong creative, analytical & problem-solving skills. Team player with an eye for detail.
+                        In my spare time, I enjoy keeping up to date with mathematics, playing the guitar and running 
+                        around Portsmouth.
+                    </p>
                 </div>
             </div>
         </section>
@@ -50,12 +54,11 @@
                         <img src="https://www.cloudways.com/blog/wp-content/uploads/best-php-frameworks-1.jpg">
                         <div class="card-content">
                             <h3 class="card-title">Web Development</h3>
-                            <p>• CodeIgniter v3 and v4</p>
-                            <p>• Laravel v8</p>
-                            <p>• PHP</p>
-                            <p>• JavaScript, jQuery</p>
-                            <p>• HTML and CSS</p>
-                            <p>• WordPress</p>
+                            <p>• Laravel / CodeIgniter</p>
+                            <p>• Angular / Angular JS</p>
+                            <p>• PHP / JavaScript / jQuery</p>
+                            <p>• HTML / CSS</p>
+                            <p>• GitHub</p>
                         </div>
                     </div>
                 </li>
@@ -99,13 +102,48 @@
 
                 <div class="collapse-content">
 
-                    <!-- Peach -->
-                    <button type="button" class="collapsible coll-child">Peach Technologies</button>
+                    <!-- i-Fulfilment -->
+                    <button type="button" class="collapsible coll-child">i-Fulfilment</button>
 
                     <div class="collapse-content">
 
-                        <h4>Web Developer</h4>
-                        <small>October 2019 to current</small>
+                        <h4>Full Stack Web Developer</h4>
+                        <small>April 2021 to current</small>
+                        <p>Maintain i-Fulfilment’s core web-application, Blade IMS. Mentored by 2 very experienced developers.</p>
+
+                        <div class="list">
+                            <ul>
+                                <li>Write well designed, testable, efficient code by using best software development practices</li>
+                                <li>Create website layout/user interface by using standard HTML/CSS practices</li>
+                                <li>Create custom API endpoints in Laravel</li>
+                                <li>Create Angular components with front-end functionality (e.g. Zorro)</li>
+                            </ul>
+                        </div>
+
+                        <p>Technical tools used:</p>
+
+                        <div class="list">
+                            <ul>
+                                <li>PHP Storm</li>
+                                <li>GitLabs</li>
+                                <li>Angular / Angular JS</li>
+                                <li>Laravel</li>
+                                <li>Docker & Kubernetes</li>
+                                <li>Ubuntu / Linux</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Peach -->
+                    <button type="button" class="collapsible coll-child">Peach Technologies / TMCS</button>
+
+                    <div class="collapse-content">
+
+                        <h4>Full Stack Web Developer</h4>
+                        <small>October 2019 to March 2021</small>
                         <p>Working for a digital marketing agency, the role requires website development and support for a wide range of clients. Technology stacks include CodeIgniter, Laravel and WordPress. Responsibilities include:</p>
 
                         <div class="list">
@@ -128,7 +166,6 @@
                                 <li>Create and maintain software documentation</li>
                             </ul>
                         </div>
-
 
                     </div>
 
@@ -430,7 +467,7 @@
     <footer id="main-footer" class="grid">
 
         <div>
-            Copyright Kiran Anand 2021
+            Last updated: 09/06/2021 19:53
         </div>
 
         <div id="counter">
